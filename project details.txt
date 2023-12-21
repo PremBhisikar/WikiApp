@@ -1,0 +1,13 @@
+1.Search Keyword API(Get): http://localhost:5000/search?term=virat kohli
+Which will give you the array of information on wikipidia.
+
+2.Sort Keyword in Descending (Get): http://localhost:5000/most-searched/desc
+
+3. Sort keyword in Ascending (Get): http://localhost:5000/most-searched/asc
+
+4. Generate Token for admin login (Post): http://localhost:5000/admin/login
+
+5. Give access for the authenticate user(Post): http://localhost:5000/admin/dashboard
+Key: x-auth-token   Value: generated token
+
+

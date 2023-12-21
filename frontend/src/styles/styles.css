@@ -1,0 +1,58 @@
+/* styles.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px;
+}
+
+.search-button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.result-container {
+  margin-bottom: 20px;
+}
+
+.result-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.result-snippet {
+  margin-bottom: 10px;
+}
+
+.read-more-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.chart {
+  width: 100%;
+}
